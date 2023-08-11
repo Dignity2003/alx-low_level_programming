@@ -20,4 +20,5 @@ break;
 c++;
 }
 putchar('\n');
+return (0);
 }
