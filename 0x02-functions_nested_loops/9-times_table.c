@@ -10,6 +10,7 @@ int c = 0;
 for (a = '0'; a <= '9'; a++)
 {
 b = '9' * a;
+c++;
 if (c == 10)
 {
 break;
@@ -20,7 +21,6 @@ _putchar(b);
 _putchar(',');
 _putchar(' ');
 }
-c++;
 }
 _putchar('\n');
 }
