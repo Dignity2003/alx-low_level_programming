@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts - It prints a string
+ * puts2 - It prints a string
  * @str: The string to be printed
  * Return: Always 0
  */
