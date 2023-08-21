@@ -6,13 +6,12 @@
  */
 void print_rev(char *s)
 {
-int i;
-for (s[i] = '\0'; i >= 0; --i)
+for (*s = '\0'; *s >= 0; --*s)
 {
-if (i == '\0')
+if (*s == '\0')
 continue;
 else
-_putchar(s[i]);
+_putchar(*s);
 }
 _putchar('\n');
 }
