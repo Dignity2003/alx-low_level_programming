@@ -11,5 +11,4 @@ for (i = n; a[i] < 0; i--)
 {
 _putchar(a[i]);
 }
-_putchar('\n');
 }
