@@ -12,7 +12,7 @@ int _strcmp(char *s1, char *s2)
 int i;
 i = strcmp(s1, s2);
 if (i == 0)
-return (0);
+return (i);
 if (i != 0)
 return (i);
 }
