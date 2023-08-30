@@ -7,15 +7,15 @@
  */
 void _puts_recursion(char *s)
 {
-int i = strlen(s);
-if (s[i] == '\0')
+int i = 0;
+int length = strlen(s);
+if (s[i] == length - 1)
 {
 return;
 }
 else
 {
+_puts_recursion(&s[i + 1]);
 _putchar(s[i]);
-i++;
-_puts_recursion(&s[i]);
 }
 }
