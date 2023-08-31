@@ -6,7 +6,6 @@
  */
 void _print_rev_recursion(char *s)
 {
-int length = strlen(s);
 if (!*s)
 {
 _putchar('\n');
