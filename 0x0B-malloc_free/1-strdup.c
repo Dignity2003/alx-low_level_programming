@@ -8,7 +8,7 @@
 char *_strdup(char *str)
 {
 char *a;
-int b = sizeof(str) / sizeof(str[0]);
+int b = sizeof(*str) / sizeof(str[0]);
 int i;
 if (*str == '\0')
 {
