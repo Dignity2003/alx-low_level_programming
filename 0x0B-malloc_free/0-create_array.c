@@ -14,7 +14,7 @@ if (size == 0)
 {
 return ('\0');
 }
-*a = (char *) malloc((size + 1) * sizeof(char));
+a = (char *) malloc((size + 1) * sizeof(char));
 while (i < size)
 {
 a[i] = c;
