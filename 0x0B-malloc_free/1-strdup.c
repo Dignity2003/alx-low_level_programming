@@ -8,13 +8,13 @@
 char *_strdup(char *str)
 {
 char *a;
-int b;
+int b = 0;
 int i;
 if (*str == '\0')
 {
 return ('\0');
 }
-while (a[b] != '\0')
+while (str[b] != '\0')
 {
 b++;
 }
