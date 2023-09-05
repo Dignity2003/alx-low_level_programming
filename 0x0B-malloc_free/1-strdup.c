@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * _strdup - It duplicates a string
- * @str:
+ * @str: The string to be duplicated
  * Return: Always 0
  */
 char *_strdup(char *str)
@@ -14,8 +14,8 @@ if (*str == '\0')
 {
 return ('\0');
 }
-a = (char *) malloc((b + 1) * sizeof (char));
-for ( i = 0; i < b; i++)
+a = (char *) malloc((b + 1) * sizeof(char));
+for (i = 0; i < b; i++)
 {
 a[i] = str[i];
 }
