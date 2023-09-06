@@ -14,6 +14,10 @@ if (*str == '\0')
 return ('\0');
 }
 a = (char *) malloc((b + 1) * sizeof(char));
+if (*a == '\0')
+{
+return ('\0');
+}
 for (b = 0; str[b] != '\0'; b++)
 {
 a[b] = str[b];
