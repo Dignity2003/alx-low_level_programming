@@ -1,5 +1,6 @@
 #include "main.h"
-
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * malloc_checked - Allocates Memory
  * @b: Size of memory
@@ -8,8 +9,8 @@
 void *malloc_checked(unsigned int b)
 {
 void *str;
-str = malloc(str);
-if (str == '\0')
+str = malloc(b);
+if (str == NULL)
 {
 exit(98);
 }
