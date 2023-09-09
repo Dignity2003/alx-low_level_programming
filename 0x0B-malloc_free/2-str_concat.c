@@ -20,7 +20,7 @@ while (s1[i])
 i++;
 while (s2[j])
 j++;
-l = l + j;
+l = i + j;
 s = malloc((sizeof(char) * l) +1);
 if (s == NULL)
 return (NULL);
