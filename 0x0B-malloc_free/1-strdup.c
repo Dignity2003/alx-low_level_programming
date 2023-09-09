@@ -15,7 +15,7 @@ return (NULL);
 }
 for (b = 1; str[b]; b++)
 ;
-a = malloc((sizeof(char) * 1) + 1);
+a = malloc((sizeof(char) * b) + 1);
 if (a == NULL)
 return (NULL);
 for (c = 0; c < b; c++)
