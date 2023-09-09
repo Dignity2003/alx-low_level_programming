@@ -23,5 +23,5 @@ for (c = 0; c < b; c++)
 a[c] = str[c];
 }
 a[c] = '\0';
-return (str);
+return (a);
 }
