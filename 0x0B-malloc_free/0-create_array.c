@@ -12,14 +12,17 @@ char *a;
 unsigned int i = 0;
 if (size == 0)
 {
-return ('\0');
+return (NULL);
 }
 a = (char *) malloc((size + 1) * sizeof(char));
+if (a == NULL)
+{
+return (NULL);
+}
 while (i < size)
 {
 a[i] = c;
 i++;
 }
 return (a);
-free(a);
 }
