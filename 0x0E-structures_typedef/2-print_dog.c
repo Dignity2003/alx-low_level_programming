@@ -11,7 +11,6 @@ void print_dog(struct dog *d)
 {
 if (d == NULL)
 return;
-d = malloc(sizeof(struct dog));
 if (d == NULL)
 {
 printf("nil\n");
