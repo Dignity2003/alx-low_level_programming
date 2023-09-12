@@ -13,11 +13,15 @@ if (d == NULL)
 return;
 else if (d->name == NULL)
 {
-printf("nil");
+printf("Name: (nil)");
 }
 else if (d->owner == NULL)
 {
-printf("nil");
+printf("Owner: (nil)");
+}
+else if (d->name == NULL && d->owner == NULL)
+{
+printf("Name: (nil)\nAge: 000000\nOwner: (nil)\n");
 }
 else
 {
