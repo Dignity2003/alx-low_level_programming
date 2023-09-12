@@ -11,17 +11,13 @@ void print_dog(struct dog *d)
 {
 if (d == NULL)
 return;
-if (d == NULL)
-{
-printf("nil\n");
-}
 else if (d->name == NULL)
 {
-printf("nil\n");
+printf("nil");
 }
 else if (d->owner == NULL)
 {
-printf("nil\n");
+printf("nil");
 }
 else
 {
