@@ -26,5 +26,5 @@ else
 printf("%s", str);
 }
 printf("\n");
-va_end(str);
+va_end(list);
 }
