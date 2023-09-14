@@ -1,6 +1,11 @@
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
+/**
+ * print_numbers - it prints number in a formatted form
+ * @separator: it will be printed inbetween the integers
+ * @n: Number of argument
+ */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 va_list list;
