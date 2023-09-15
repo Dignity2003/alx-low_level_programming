@@ -1,7 +1,6 @@
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
-#include <string.h>
 /**
  * print_all - it prints anything
  * @format: the format u want to be printed
@@ -11,11 +10,10 @@ void print_all(const char * const format, ...)
 va_list list;
 int i = 0;
 char *sep = "";
-int len = strlen(format);
 va_start(list, format);
 if (format)
 {
-while (i < len)
+while (format[i])
 {
 switch (format[i])
 {
