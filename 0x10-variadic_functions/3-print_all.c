@@ -10,9 +10,9 @@ void print_all(const char * const format, ...)
 {
 va_list list;
 int i = 0;
-char *str, *sep = "";
-va_start(list, format);
+char *sep = "";
 int len = strlen(format);
+va_start(list, format);
 if (format)
 {
 while (i < len)
