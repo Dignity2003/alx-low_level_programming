@@ -27,7 +27,7 @@ if (*head == NULL)
 *head = str2;
 return (str2);
 }
-while (temp -> next)
+while (temp->next)
 temp = temp->next;
 temp->next = str2;
 return (str2);
