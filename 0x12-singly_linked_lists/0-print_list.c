@@ -1,7 +1,5 @@
 #include "lists.h"
 #include <stdio.h>
-#include <stdlib.h>
-
 /**
  * print_list - it prints charcter
  * @h: the head of the node
@@ -16,6 +14,7 @@ if (h->str == NULL)
 {
 printf("[0](nil)");
 }
+else
 printf("[%d] %s\n", h->len, h->str);
 h = h->next;
 }
