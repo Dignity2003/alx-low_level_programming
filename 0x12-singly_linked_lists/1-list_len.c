@@ -5,12 +5,12 @@
  *@h: the pointer the list_t
  *Return: number of element in h
  */
-size_t list_len(const list_h *h)
+size_t list_len(const list_t *h)
 {
 size_t k = 0;
 while (h)
 {
-n++;
+k++;
 h = h->next;
 }
 return (k);
